@@ -1,18 +1,15 @@
-puts "Место встречи героев, питейное заведение" # таверна
+puts "Твой день рождения"
+happy_date = gets
+puts "Место рождения"
+born_city = gets
+puts "твой телефон"
+phone_number = gets
+puts "Твой день рождения: " + happy_date
+puts "Место рождения: " + born_city
+puts "твой телефон: " + phone_number
 gets
-puts "Книга мертвых" # Некрономикон
-gets
-puts "Одинокая красавица на холме" # Ведьма
-gets
-puts "Немецкий двух ручный меч" # цвайхандер
-gets
-puts "Маленкий щит" # баклер
-gets
-puts "Стрелковое оружик, боеприпасы болты" # Арбалет
-gets
-puts "Вы молодец миллорд"
-puts "какой Твой возраст?"
+puts "Your age?"
 age = gets
-puts "Твой возраст"
-puts age
+age = age.to_i * 12
+puts "Your age is " + age.to_s
 gets
