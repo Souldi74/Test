@@ -11,6 +11,11 @@ gets
 puts "Your age?"
 age = gets
 age = age.to_i * 12
-puts "Your age is " + age.to_s
+puts "Your age is #{age}"
 gets
 puts "hello"
+puts "Your Salary"
+salary = gets.to_i
+tax_rate = 0.3
+puts "Tax : "
+puts salary * tax_rate
