@@ -16,6 +16,6 @@ gets
 puts "hello"
 puts "Your Salary"
 salary = gets.to_i
-tax_rate = 0.3
+tax_rate = 0.5
 puts "Tax : "
 puts salary * tax_rate
