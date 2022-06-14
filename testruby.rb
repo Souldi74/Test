@@ -15,9 +15,13 @@ a = 'xxx'
 b = a
 puts b
 
-sum = 0
-24.times do |n|
+sum = 500000
+30.times do |a|
 
- sum = sum + 500
- puts "Месяц #{n}, у бабушки в сундуке #{sum}"
+sum = sum - 16666
+sum1 = sum * 0.4
+
+puts "Год #{a + 1}, осталось выплатить   #{sum1}"
 end
+
+0.upto(2) { |a| puts "Я  красивый #{a}" }
