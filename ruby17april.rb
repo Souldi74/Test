@@ -16,9 +16,9 @@ loop do
     input = gets.to_i
 if input == number
     puts "Правильно : #{number}"
-end
+    exit
+else input != number
+    puts "Неправильно попробкй еще раз : #{input}"
 
-if input != number
-    puts 'Не верно, попробуйте еще раз: '
 end
 end
