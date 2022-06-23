@@ -10,7 +10,7 @@ gets
 
 puts "#{x+z+y}"
 
-number = rand (1..10)
+number = rand (1..100)
 puts "Я загадал для тебя числа с 1 до 10 попробуй отгадать: "
 loop do
     input = gets.to_i
