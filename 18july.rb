@@ -1,3 +1,4 @@
-arm = Array.new (10) {'Sommting'}
-arm[0].upcase!
+arm = Array.new(5) {Array.new(5,rand(1..5))}
+
 puts arm
+
