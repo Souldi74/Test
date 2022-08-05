@@ -36,17 +36,13 @@ puts  "Компьютер выбрал " + kmb[enter_cpu].to_s
 
 if  enter == enter_cpu
   puts "ничья"
-elsif enter == 0 && enter_cpu == 2
-  puts "ВЫиграл компутер"
-elsif enter == 1 && enter_cpu == 0
-  puts 'Выиграл Компутер'
-elsif enter == 2 && enter_cpu == 1
-  puts "Выиграл Компутер"
+elsif enter == 0 && enter_cpu == 1
+  puts "Выиграл мешок"
 elsif enter == 1 && enter_cpu == 2
   puts "Выиграл Мешок"
 elsif enter == 2 && enter_cpu == 0
   puts "Выиграл Мешок"
 else
-  enter == 0 && enter_cpu == 1
-  puts "Выиграл мешок"
+
+  puts "Выиграл Компутр"
 end
