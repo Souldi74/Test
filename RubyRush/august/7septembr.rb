@@ -28,12 +28,12 @@ puts "Введите кол-во мячей "
 count = gets.to_i
 
 if user_input == 1
- soccer =  count * (obj[:soccer_ball] * 6)
+ soccer =  count * (obj[:soccer_ball] / 6)
 puts "Ваши мячи будут весить на луне: " + soccer.to_s
 elsif user_input == 2
-  golf =  count * (obj[:golf_ball]*6)
+  golf =  count * (obj[:golf_ball] / 6)
   puts "Ваши мячи будут весить на луне: " + golf.to_s
 else
-  tenis =  count * (obj[:tennis_ball] * 6)
+  tenis =  count * (obj[:tennis_ball] / 6)
   puts "Ваши мячи будут весить на луне: " + tenis.to_s
 end
